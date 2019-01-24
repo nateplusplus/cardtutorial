@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #C7CFD1;
+  font: 16px/1 'PT Sans', 'arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #2273CB;
+  text-decoration: none;
+}
+a:hover {
+  color: #5BA6F5;
+}
+
+.image-block,
+.text-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image-block {
+  margin-right: 1em;
+}
+
+.image-block img {
+  width: 150px;
+}
+
+.text-block {
+  color: #2d2d2d;
+}
+
+#site-wrapper {
+  display: flex;
+  height:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  background-image: url(../images/groovepaper.png);
+  padding: 2em;
+  width: 510px;
+  max-width: 100%;
+  margin: 2em auto;
+  border-radius: .8em;
+  -webkit-box-shadow: 6px 12px 38px -5px rgba(0,0,0,0.26);
+  -moz-box-shadow: 6px 12px 38px -5px rgba(0,0,0,0.26);
+  box-shadow: 6px 12px 38px -5px rgba(0,0,0,0.26);
+}
+
+.header {
+  font-size: .8rem;
+}
+
+.no-style {
+  list-style: none;
+  padding-left: 0;
+}
+
+.no-style li {
+  display: inline-block;
+}
